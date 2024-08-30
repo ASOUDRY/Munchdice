@@ -5,19 +5,14 @@ import java.util.EnumSet;
 import javax.security.auth.login.LoginException;
 
 import com.soudry.Listeners.DiceListener;
-// import com.soudry.Listeners.EventListener;
-// import com.soudry.Listeners.MyListener;
 import com.soudry.Listeners.SlashCommands;
 
 import io.github.cdimascio.dotenv.Dotenv;
 import net.dv8tion.jda.api.JDA;
-// import net.dv8tion.jda.api.JDABuilder;
 import net.dv8tion.jda.api.OnlineStatus;
 import net.dv8tion.jda.api.entities.Activity;
-
 import net.dv8tion.jda.api.exceptions.InvalidTokenException;
 import net.dv8tion.jda.api.requests.GatewayIntent;
-
 import net.dv8tion.jda.api.sharding.DefaultShardManagerBuilder;
 import net.dv8tion.jda.api.sharding.ShardManager;
 
